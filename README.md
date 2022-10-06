@@ -1,5 +1,5 @@
 # simple-auth
-### version: 0.0.1 (October 7, 2022)
+### version: 1.0.0 (October 7, 2022)
 
 ## Project Description
 
@@ -40,3 +40,7 @@ or using Docker
 
     > docker build -t simple-auth:latest .
     > docker run --name simple-auth --env-file .env -p 3000:3000 -d simple-auth:latest
+
+## Misc.
+- You can find the API Docs from this project here: [Postman Docs](https://documenter.getpostman.com/view/23104123/2s83zfR64M)
+- Docker repository container latest build from this project can be found here: [Dockerhub](https://hub.docker.com/repository/docker/iqballx/simple-auth)
